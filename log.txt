@@ -1,1 +1,143 @@
-Something is in the log...
+sroberts@talentpath.com 1563230536838
+sroberts@talentpath.com 1563230921671
+sroberts@talentpath.com 1563231126099
+ERROR key invalid on scott.json 1563231137483
+sroberts@talentpath.com 1563231649391
+Scott 1563231672844
+SUCCESS scott.json key(email) was updated to hans@hanken.org was updated 1563290732993
+SUCCESS scott.json key(email) was updated to hans@hanken.com was updated 1563290747042
+SUCCESS scott.json key(emails) was updated to yo was updated 1563290770224
+SUCCESS the key email was removed from scott.json 1563291151803
+SUCCESS the key emails was removed from scott.json 1563291179820
+SUCCESS the key emails was removed from scott.json 1563291212455
+SUCCESS the key emails was removed from scott.json 1563291223699
+SUCCESS the key undefined was removed from scott.json 1563291564109
+SUCCESS the file scott.json was removed 1563291662138
+SUCCESS the file hans.json was created 1563291744759
+Error: ENOENT: no such file or directory, open './undefined' 1563292396170
+SUCCESS the file hans.json was removed 1563292422280
+Error: ENOENT: no such file or directory, access './hans.json' 1563293233628
+Error: ENOENT: no such file or directory, stat './hans.json' 1563293321038
+Error: ENOENT: no such file or directory, stat './hans.json' 1563293409230
+SUCCESS hans.json was created 1563293704864
+ERROR hans.json all ready exists 1563295430780
+ERROR yo.json all ready exists 1563295652725
+SUCCESS dang.json was created 1563295724190
+ERROR dang.json all ready exists 1563295739088
+[object Object] 1563300283755
+{"0":{"firstname":"Andrew","lastname":"Maney","email":"amaney@talentpath.com"},"1":{"dude":"hey"},"2":{"hey":"hey"},"3":{"title":"Async/Await lesson","description":"How to write asynchronous JavaScript","date":"July 15, 2019"}} 1563300309716
+{"0":{"firstname":"Andrew","lastname":"Maney","email":"amaney@talentpath.com"},"1":{"dude":"hey"},"2":{"hey":"hey"},"3":{"title":"Async/Await lesson","description":"How to write asynchronous JavaScript","date":"July 15, 2019"}} 1563300584856
+{"andrew.json":{"firstname":"Andrew","lastname":"Maney","email":"amaney@talentpath.com"},"hans.json":{"dude":"hey"},"hey.json":{"hey":"hey"},"post.json":{"title":"Async/Await lesson","description":"How to write asynchronous JavaScript","date":"July 15, 2019"}} 1563301176884
+{"andrew.json":{"firstname":"Andrew","lastname":"Maney","email":"amaney@talentpath.com"},"hans.json":{"dude":"hey"},"hey.json":{"hey":"hey"},"post.json":{"title":"Async/Await lesson","description":"How to write asynchronous JavaScript","date":"July 15, 2019"}} 1563301254999
+{"andrew.json":{"firstname":"Andrew","lastname":"Maney","email":"amaney@talentpath.com"},"hans.json":{"dude":"hey"},"hey.json":{"hey":"hey"},"post.json":{"title":"Async/Await lesson","description":"How to write asynchronous JavaScript","date":"July 15, 2019"}} 1563301465044
+SUCCESS - the key undefined was removed from hans.json 1563302525716
+SUCCESS - the key dude was removed from hans.json 1563302583979
+SUCCESS - the key age was removed from hans.json 1563302763007
+SUCCESS - [object Object][object Promise][object Promise] 1563303593938
+SUCCESS - [object Object][object Promise][object Promise]12 1563303911163
+SUCCESS - [object Object][object Object][object Object] 1563303942618
+firstname: Franz set in hans.json 1563398935114
+firstname: Franz set in hans.json 1563398950006
+firstname: Yanz set in hans.json 1563399002193
+firstname: Yolo set in hans.json 1563399038614
+firstname: Taranka set in hans.json 1563400644208
+firstname: dude set in hans.json 1563465600255
+firstname: dude set in hans.json 1563466126290
+firstname: raiko set in hans.json 1563466784294
+firstname: raiko set in hans.json 1563466853702
+firstname: raiko set in hans.json 1563466902817
+firstname: raiko set in hans.json 1563466954980
+firstname: tanko set in hans.json 1563467075562
+firstname: hans set in hans.json 1563470360304
+SUCCESS - No such file or directory hansfas.json 1563473087209
+ERROR - No such file or directory hansfas.json 1563473125923
+ERROR - No such file or directory hansfas.json 1563473355591
+ERROR - No such file or directory hansfas.json 1563473396162
+ERROR - No such file or directory hansfas.json 1563473489339
+ERROR - No such file or directory hansfas.json 1563473531868
+ERROR - No such file or directory hansfas.json 1563473895727
+ERROR - No such file or directory hansfas.json 1563473915646
+ERROR - No such file or directory hansfas.json 1563473933177
+ERROR - No such file or directory hansfas.json 1563474050231
+ERROR - No such file or directory hansfas.json 1563474065087
+ERROR - No such file or directory hansfas.json 1563474090535
+ERROR - No such file or directory hansfas.json 1563474096206
+ERROR - No such file or directory hansfas.json 1563474108424
+SUCCESS - roar.json: created 1563477152134
+SUCCESS - ERROR no such file or directory undefined 1563487993858
+SUCCESS - ERROR no such file or directory undefined 1563488027043
+SUCCESS - ERROR no such file or directory undefined 1563488039197
+SUCCESS - ERROR no such file or directory undefined 1563488099032
+SUCCESS - ERROR no such file or directory undefined 1563488131251
+SUCCESS - ERROR no such file or directory undefined 1563488185369
+SUCCESS - ERROR no such file or directory undefined 1563488248524
+SUCCESS - ERROR no such file or directory undefined 1563488279982
+SUCCESS - ERROR no such file or directory undefined 1563488344971
+SUCCESS - ERROR no such file or directory undefined 1563488388379
+SUCCESS - hans 1563488621892
+SUCCESS - hans 1563488637123
+SUCCESS - hans 1563488688991
+SUCCESS - hans 1563488695603
+SUCCESS - hans 1563488715327
+SUCCESS - hans 1563488986631
+SUCCESS - hans 1563489034588
+SUCCESS - ERROR no such file or directory hans.jsonfsf 1563489048596
+SUCCESS - ERROR no such file or directory hans.jsonfsf 1563489125771
+SUCCESS - ERROR no such file or directory hans.jsonfsf 1563489166376
+SUCCESS - ERROR no such file or directory hans.jsonfsf 1563489309567
+SUCCESS - ERROR no such file or directory hans.jsonfsf 1563489347056
+SUCCESS - hans 1563489353833
+SUCCESS - hans.json succesfully deleted 1563490846853
+SUCCESS - ERROR hans.json does not exist 1563490853791
+SUCCESS - ERROR no such file or directory undefined 1563492203939
+SUCCESS - ERROR no such file or directory undefined 1563492254370
+SUCCESS - ERROR no such file or directory undefined 1563492331386
+SUCCESS - ERROR no such file or directory undefined 1563492365455
+SUCCESS - ERROR no such file or directory undefined 1563492387231
+SUCCESS - hey 1563492567926
+SUCCESS - hey 1563492592612
+SUCCESS - ERROR no such file or directory hey.jsasdson 1563492595343
+SUCCESS - hey.json succesfully deleted 1563492706573
+SUCCESS - {
+  "firstname": "hans",
+  "yoloing": true
+} 1563492993756
+SUCCESS - firstname deleted from roar.json 1563549471600
+SUCCESS - roar.json: created 1563550706065
+SUCCESS - roar.json: created 1563550721453
+SUCCESS - roar.json: created 1563550726764
+SUCCESS - dude.json: created 1563550755257
+SUCCESS - ERROR file or directory already exists: dude.json 1563551144205
+SUCCESS - yo.json: created 1563551175693
+SUCCESS - ERROR file or directory already exists: yo.json 1563551215730
+SUCCESS - ERROR file or directory already exists: yo.json 1563551229188
+ERROR - yo.json all ready exists. Please try another name 1563551326430
+ERROR - yo.json all ready exists 1563551346938
+SUCCESS - yoso.json: created 1563551353454
+ERROR - yoso.json all ready exists 1563552431788
+SUCCESS - status.json: created 1563553298738
+ERROR - status.json all ready exists 1563553300288
+ERROR - status.json all ready exists 1563554059830
+ERROR - status.json all ready exists 1563554100499
+ERROR - status.json all ready exists 1563554107896
+ERROR - status.json all ready exists 1563554292967
+ERROR - status.json all ready exists 1563554318665
+ERROR - No such file or directory hans.json 1563555507276
+ERROR - No such file or directory hans.json 1563555543928
+ERROR - No such file or directory hans.json 1563555638529
+SUCCESS - undefined: undefined set in andrew.json 1563555663659
+SUCCESS - undefined: undefined set in andrew.json 1563555712507
+SUCCESS - undefined: undefined set in andrew.json 1563555720379
+SUCCESS - undefined: undefined set in andrew.json 1563555929112
+SUCCESS - undefined: undefined set in andrew.json 1563555939264
+SUCCESS - firstname: Rudolph set in andrew.json 1563556063273
+SUCCESS - firstname: Rudolph set in andrew.json 1563556085056
+SUCCESS - firstname: Rudolph set in andrew.json 1563556128725
+SUCCESS - firstname: Rudolph set in andrew.json 1563556193936
+SUCCESS - firstname: Dang set in andrew.json 1563556200235
+SUCCESS - firstname: Dansg set in andrew.json 1563556336621
+ERROR - No such file or directory andssrew.json 1563556341325
+ERROR - No such file or directory andssrew.json 1563556424378
+ERROR - No such file or directory andssrew.json 1563556439246
+SUCCESS - andrew.json succesfully deleted 1563557759151
+SUCCESS - andrew.json: created 1563557814263
