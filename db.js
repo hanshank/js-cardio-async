@@ -1,6 +1,6 @@
 const fs = require(`fs`).promises;
 const path = `./db/`;
-const CustomError = require('./middleware/custom-error.js');
+const ErrorWithCode = require('./middleware/error-with-code');
 /*
 All of your functions must return a promise!
 */
@@ -57,7 +57,7 @@ function reset() {
 async function log(value, err, errorCode) {
   await fs.appendFile(`log.txt`, `${err ? 'ERROR' : 'SUCCESS'} - ${value} ${Date.now()}\n`);
   // pass along (throw) the error if it exists
-  if (err) throw new CustomError(err.message, errorCode);
+  if (err) throw new ErrorWithCode(err.message, errorCode);
   // If not throwing an error, return the value
   return value;
 }
@@ -224,8 +224,7 @@ async function createFile(file, content) {
     await fs.writeFile(path + file, `{}`);
     return log(`${file}: created`);
   } catch (err) {
-    await log(err.message, err, 409);
-    throw err;
+    return log(err.message, err, 409);
   }
 }
 

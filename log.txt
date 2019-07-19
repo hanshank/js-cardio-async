@@ -141,3 +141,7 @@ ERROR - No such file or directory andssrew.json 1563556424378
 ERROR - No such file or directory andssrew.json 1563556439246
 SUCCESS - andrew.json succesfully deleted 1563557759151
 SUCCESS - andrew.json: created 1563557814263
+SUCCESS - hello.json: created 1563560169705
+ERROR - hello.json all ready exists 1563560198659
+ERROR - hello.json all ready exists 1563560864596
+ERROR - hello.json all ready exists 1563561531389

@@ -1,4 +1,4 @@
-class CustomError extends Error {
+class ErrorWithCode extends Error {
   /**
    * Creates a custom error that takes an additional code param
    * @param {string} message the message
@@ -10,4 +10,4 @@ class CustomError extends Error {
   }
 }
 
-module.exports = CustomError;
+module.exports = ErrorWithCode;

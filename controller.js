@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 const db = require('./db');
-const CustomError = require('./middleware/custom-error');
+const ErrorWithCode = require('./middleware/error-with-code');
 
 /**
  *  A function that listens for data passed with a request and returns it in a promise.
@@ -157,13 +157,13 @@ async function patchSet(req, res) {
 const postWrite = async (req, res) => {
   try {
     const { fileName } = await getBody(req);
-    if (!fileName) throw new CustomError('Filename is missing', 400);
-    if (!fileName.includes('.json')) throw new CustomError('only files with .json extension allowed', 400);
+    if (!fileName) throw new ErrorWithCode('Filename is missing', 400);
+    if (!fileName.endsWith('.json')) throw new ErrorWithCode('only files with .json extension allowed', 400);
     await db.createFile(fileName);
     res.writeHead(201);
     res.end(`${fileName} successfully created`);
   } catch (err) {
-    if (err.code) res.writeHead(err.code);
+    res.writeHead(err.code || 400);
     res.end(err.message);
   }
 };
